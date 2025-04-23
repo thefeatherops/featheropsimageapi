@@ -4,8 +4,8 @@
   "description": "OpenAI-compatible image generation API wrapper",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js",
+    "start": "node create-test-key.js && node server.js",
+    "dev": "node create-test-key.js && nodemon server.js",
     "test": "jest"
   },
   "author": "",
@@ -27,4 +27,4 @@
     "jest": "^29.7.0",
     "nodemon": "^3.0.1"
   }
-} 
+}
