@@ -1,4 +1,6 @@
 require('dotenv').config();
+// Generate and log API key on startup
+require('./create-test-key');
 const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
